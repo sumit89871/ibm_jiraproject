@@ -1,0 +1,190 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Outward issue link (Blocks),Outward issue link (Relates),Outward issue link (Relates),Attachment,Attachment,Custom field (Actual end),Custom field (Actual start),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Development),Custom field (Epic Link),Custom field (Impact),Custom field (Issue color),Custom field (Rank),Custom field (Request Type),Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field ([CHART] Date of First Response),Status Category
+Invalid Data is being added to Market Tracker Database without error,NP-48,10170,Bug,To Do,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Sumit Gupta,620b3324eb2978006891009e,18/Feb/22 2:11 PM,18/Feb/22 4:36 PM,18/Feb/22 4:34 PM,,,0,"+*Steps To Reproduce:-*+
+
+1.Open upskill platform and login.
+
+2. Click on Share icon and navigate to marketing tab
+
+3.Select either add or edit icon
+
+4. Now enter invalid test data in either Campaign Name and Tracking Code.(For list of Invalid Data refer to attached test-cases)
+
+5.The Faulty data will be added to database.
+
+
+
+!image-20220218-101806.png|width=1405,height=217!
+
+
+
++*Because of this issue some filter features are also affected, keys of which are mentioned:-*+
+
+[https://ibmhaldia001.atlassian.net/browse/NP-22|https://ibmhaldia001.atlassian.net/browse/NP-22|smart-link]
+
+[https://ibmhaldia001.atlassian.net/browse/NP-28|https://ibmhaldia001.atlassian.net/browse/NP-28|smart-link]
+
+[https://ibmhaldia001.atlassian.net/browse/NP-20|https://ibmhaldia001.atlassian.net/browse/NP-20|smart-link]
+
+[https://ibmhaldia001.atlassian.net/browse/NP-27|https://ibmhaldia001.atlassian.net/browse/NP-27|smart-link]
+
+[https://ibmhaldia001.atlassian.net/browse/NP-25|https://ibmhaldia001.atlassian.net/browse/NP-25|smart-link]
+
+[https://ibmhaldia001.atlassian.net/browse/NP-23|https://ibmhaldia001.atlassian.net/browse/NP-23|smart-link]
+
+[https://ibmhaldia001.atlassian.net/browse/NP-21|https://ibmhaldia001.atlassian.net/browse/NP-21|smart-link]",,Sumit Gupta,620b3324eb2978006891009e,,,,,,,,,NP-2,,,18/Feb/22 3:48 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-101806.png;https://ibmhaldia001.atlassian.net/secure/attachment/10016/image-20220218-101806.png,,,,,,,{},,,,0|i000kp:,,Sprint 1,,,,,,,,To Do
+Invalid Data is being added in database of Gift Voucher Theme module,NP-47,10169,Bug,To Do,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Sumit Gupta,620b3324eb2978006891009e,18/Feb/22 12:55 PM,18/Feb/22 4:36 PM,18/Feb/22 3:49 PM,,,0,"+*Steps To Reproduce:-*+
+
+1.Open upskill platform and login.
+
+2.Click on Cart icon and navigate to Gift Voucher Theme tab
+
+3.Select either add or edit icon
+
+4.Now enter invalid test data in either Campaign Name and Tracking Code.(For list of Invalid Data refer to attached test-cases)
+
+5.The Faulty data will be added to database.
+
+
+
+!image-20220218-102220.png|width=1398,height=209!",,Sumit Gupta,620b3324eb2978006891009e,,,,,,,,,NP-1,,,18/Feb/22 3:52 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-102220.png;https://ibmhaldia001.atlassian.net/secure/attachment/10017/image-20220218-102220.png,,,,,,,{},,,,0|i000kr:,,Sprint 1,,,,,,,,To Do
+Verify the edit functionality with special characters and numbers in Tracking Code field,NP-46,10168,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 4:52 PM,18/Feb/22 4:19 PM,,,0,"!image-20220218-093634.png|width=715,height=338!
+
+
+
+
+
+!image-20220218-093829.png|width=1443,height=261!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,NP-48,18/Feb/22 3:08 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-093634.png;https://ibmhaldia001.atlassian.net/secure/attachment/10005/image-20220218-093634.png,18/Feb/22 3:08 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-093829.png;https://ibmhaldia001.atlassian.net/secure/attachment/10004/image-20220218-093829.png,,,,,,{},,,,0|i000ku:zzi,,Sprint 1,,,,,,,,In Progress
+Verify the edit functionality with special characters in Tracking Code field,NP-45,10167,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 4:52 PM,18/Feb/22 4:20 PM,,,0,"!image-20220218-093954.png|width=648,height=327!
+
+
+
+
+
+!image-20220218-094118.png|width=1326,height=206!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,NP-48,18/Feb/22 3:11 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-093954.png;https://ibmhaldia001.atlassian.net/secure/attachment/10007/image-20220218-093954.png,18/Feb/22 3:11 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-094118.png;https://ibmhaldia001.atlassian.net/secure/attachment/10006/image-20220218-094118.png,,,,,,{},,,,0|i000ku:zz,,Sprint 1,,,,,,,,In Progress
+Verify the edit functionality with special characters in Campaign Name field,NP-44,10166,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 4:52 PM,18/Feb/22 4:20 PM,,,0,"!image-20220218-094303.png|width=706,height=259!
+
+
+
+!image-20220218-094357.png|width=1286,height=293!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,NP-48,18/Feb/22 3:14 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-094303.png;https://ibmhaldia001.atlassian.net/secure/attachment/10008/image-20220218-094303.png,18/Feb/22 3:14 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-094357.png;https://ibmhaldia001.atlassian.net/secure/attachment/10009/image-20220218-094357.png,,,,,,{},,,,0|i000ku:zy,,Sprint 1,,,,,,,,In Progress
+Verify the edit functionality with numeric values in Campaign Name field,NP-43,10165,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 4:52 PM,18/Feb/22 4:21 PM,,,0,"!image-20220218-094528.png|width=550,height=292!
+
+
+
+
+
+!image-20220218-094637.png|width=1399,height=136!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,NP-48,18/Feb/22 3:16 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-094528.png;https://ibmhaldia001.atlassian.net/secure/attachment/10010/image-20220218-094528.png,18/Feb/22 3:16 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-094637.png;https://ibmhaldia001.atlassian.net/secure/attachment/10011/image-20220218-094637.png,,,,,,{},,,,0|i000ku:zx,,Sprint 1,,,,,,,,In Progress
+Verify the edit functionality with valid Campaign Name,NP-42,10164,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:24 PM,21/Feb/22 9:50 AM,18/Feb/22 12:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000tr:,,,,,,,,,,Done
+Verify the delete functionality by selecting multiple rows,NP-41,10163,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:23 PM,18/Feb/22 11:20 AM,18/Feb/22 12:19 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000tj:,,,,,,,,,,Done
+Verify the delete functionality by selecting a single row,NP-40,10162,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:24 PM,21/Feb/22 9:50 AM,18/Feb/22 12:22 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000tb:,,,,,,,,,,Done
+Verify the Add button functionality with blank Tracking Code,NP-39,10161,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 3:01 PM,18/Feb/22 3:01 PM,18/Feb/22 12:34 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000t3:,,,,,,,,,,Done
+Verify the Add button functionality with blank Campaign Name,NP-38,10160,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:24 PM,18/Feb/22 11:23 AM,18/Feb/22 12:19 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000sv:,,,,,,,,,,Done
+Verify the Add button functionality with Invalid Tracking Code(Tracking Code having special characters),NP-37,10159,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 4:52 PM,18/Feb/22 4:21 PM,,,0,"
+
+
+
+!image-20220218-100332.png|width=50%!
+
+
+
+
+
+
+
+
+
+!image-20220218-100453.png|width=1265,height=196!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,NP-48,18/Feb/22 3:35 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-100332.png;https://ibmhaldia001.atlassian.net/secure/attachment/10013/image-20220218-100332.png,18/Feb/22 3:35 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-100453.png;https://ibmhaldia001.atlassian.net/secure/attachment/10012/image-20220218-100453.png,,,,,,{},,,,0|i000ku:zv,,Sprint 1,,,,,,,,In Progress
+Verify the Add button functionality with Invalid Campaign Name (Campaign Name having special characters),NP-36,10158,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 4:52 PM,18/Feb/22 4:22 PM,,,0,"!image-20220218-100620.png|width=514,height=307!
+
+
+
+!image-20220218-100651.png|width=1324,height=118!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,NP-48,18/Feb/22 3:36 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-100620.png;https://ibmhaldia001.atlassian.net/secure/attachment/10014/image-20220218-100620.png,18/Feb/22 3:36 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-100651.png;https://ibmhaldia001.atlassian.net/secure/attachment/10015/image-20220218-100651.png,,,,,,{},,,,0|i000ku:zr,,Sprint 1,,,,,,,,In Progress
+Verify the Add button functionality with Invalid Campaign Name (Campaign Name having numeric value),NP-35,10157,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 4:52 PM,18/Feb/22 4:22 PM,,,0,"!image-20220218-102425.png|width=619,height=242!
+
+
+
+!image-20220218-102501.png|width=1272,height=261!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,NP-48,18/Feb/22 3:55 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-102425.png;https://ibmhaldia001.atlassian.net/secure/attachment/10019/image-20220218-102425.png,18/Feb/22 3:55 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-102501.png;https://ibmhaldia001.atlassian.net/secure/attachment/10018/image-20220218-102501.png,,,,,,{},,,,0|i000ku:zi,,Sprint 1,,,,,,,,In Progress
+Verify the Add button functionality with Valid Campaign name,NP-34,10156,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:24 PM,21/Feb/22 9:50 AM,18/Feb/22 12:33 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000rz:,,,,,,,,,,Done
+"Verify the Date Added field with invalid dates,months and years",NP-33,10155,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:24 PM,21/Feb/22 9:50 AM,18/Feb/22 12:33 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000rr:,,,,,,,,,,Done
+Verify the Date Added field with valid input format(YYYY/MM/DD),NP-32,10154,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:24 PM,21/Feb/22 9:50 AM,18/Feb/22 12:22 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000rj:,,,,,,,,,,Done
+Verify the Date Added field with invalid input format(MM/YYYY/DD),NP-31,10153,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:24 PM,18/Feb/22 11:43 AM,18/Feb/22 12:22 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000rb:,,,,,,,,,,Done
+Verify the Date Added field with invalid input format(DD/MM/YYYY),NP-30,10152,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:24 PM,21/Feb/22 9:50 AM,18/Feb/22 12:34 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000r3:,,,,,,,,,,Done
+Verify the Date Added field with valid input format(YYYY-MM-DD),NP-29,10151,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:10 AM,18/Feb/22 2:24 PM,18/Feb/22 11:28 AM,18/Feb/22 12:21 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000qv:,,,,,,,,,,Done
+Verify the Tracking Code field filter with combination of special characters and numbers,NP-28,10150,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 4:52 PM,18/Feb/22 4:23 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000ku:z,,Sprint 1,,,,,,,,In Progress
+Verify the Tracking Code filter with combination of special characters and alphabets,NP-27,10149,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 4:52 PM,18/Feb/22 2:29 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000ku:y,,Sprint 1,,,,,,,,In Progress
+Verify the Tracking Code field with non-existent Tracking Code,NP-26,10148,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 2:24 PM,18/Feb/22 11:53 AM,18/Feb/22 12:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000q7:,,,,,,,,,,Done
+Verify the Tracking Code field filter with special characters,NP-25,10147,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 4:52 PM,18/Feb/22 2:30 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000ku:x,,Sprint 1,,,,,,,,In Progress
+Verify the Tracking Code field with valid input (alphanum values),NP-24,10146,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 2:24 PM,18/Feb/22 3:02 PM,18/Feb/22 12:21 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000pr:,,,,,,,,,,Done
+"Verify the Campaign Name field filter with combination of alphabets,numeric and special characters",NP-23,10145,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 4:52 PM,18/Feb/22 2:31 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000ku:v,,Sprint 1,,,,,,,,In Progress
+Verify the Campaign Name field filter with alphanumeric values,NP-22,10144,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 4:52 PM,18/Feb/22 2:26 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000ku:r,,Sprint 1,,,,,,,,In Progress
+Verify the Campaign Name field filter with numeric values,NP-21,10143,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 4:52 PM,18/Feb/22 2:29 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000ku:zyi,,Sprint 1,,,,,,,,In Progress
+Verify the Campaign Name filter with special characters,NP-20,10142,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 4:52 PM,18/Feb/22 2:28 PM,,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000ku:i,,Sprint 1,,,,,,,,In Progress
+Verify the Campaign Name field with valid data,NP-19,10141,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,18/Feb/22 10:09 AM,18/Feb/22 2:24 PM,21/Feb/22 9:50 AM,18/Feb/22 12:32 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-2,,,,,,,,,{},,,,0|i000on:,,,,,,,,,,Done
+Delete image functionality should work inside the Add Functionality feature,NP-18,10140,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:12 PM,18/Feb/22 12:39 PM,18/Feb/22 9:11 AM,18/Feb/22 12:39 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000of:,,,,,,,,,,Done
+Edit image functionality should not work inside the Add Functionality feature if no new image is selected,NP-17,10139,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:12 PM,18/Feb/22 12:40 PM,21/Feb/22 9:50 AM,18/Feb/22 12:40 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000o7:,,,,,,,,,,Done
+Edit image functionality should work inside the Add Functionality feature,NP-16,10138,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 12:42 PM,21/Feb/22 9:50 AM,18/Feb/22 12:42 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000nz:,,,,,,,,,,Done
+Verify the edit functionality by removing the existing image and selecting any new image,NP-15,10137,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 12:41 PM,21/Feb/22 9:50 AM,18/Feb/22 12:41 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000nr:,,,,,,,,,,Done
+Verify the edit functionality by removing the existing image and without selecting any new image,NP-14,10136,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 12:40 PM,21/Feb/22 9:50 AM,18/Feb/22 12:40 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000nj:,,,,,,,,,,Done
+Verify the edit functionality with combination of special characters and numbers in Voucher Theme Name,NP-13,10135,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 4:49 PM,18/Feb/22 4:23 PM,,,0,"!image-20220218-102754.png|width=590,height=259!
+
+
+
+!image-20220218-102836.png|width=1406,height=110!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,NP-47,18/Feb/22 3:58 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-102754.png;https://ibmhaldia001.atlassian.net/secure/attachment/10021/image-20220218-102754.png,18/Feb/22 3:58 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-102836.png;https://ibmhaldia001.atlassian.net/secure/attachment/10020/image-20220218-102836.png,,,,,,{},,,,0|i000kt:i,,Sprint 1,,,,,,,,In Progress
+Verify the edit functionality with numbers in Voucher Theme Name,NP-12,10134,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 4:49 PM,18/Feb/22 4:23 PM,,,0,"
+
+!image-20220218-103139.png|width=50%!
+
+
+
+
+
+!image-20220218-103226.png|width=566,height=158!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,NP-47,18/Feb/22 4:02 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-103139.png;https://ibmhaldia001.atlassian.net/secure/attachment/10023/image-20220218-103139.png,18/Feb/22 4:02 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-103226.png;https://ibmhaldia001.atlassian.net/secure/attachment/10022/image-20220218-103226.png,,,,,,{},,,,0|i000ks:r,,Sprint 1,,,,,,,,In Progress
+Verify the edit functionality with special characters in Voucher Theme Name,NP-11,10133,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 4:49 PM,18/Feb/22 4:24 PM,,,0,"!image-20220218-103344.png|width=457,height=262!
+
+
+
+
+
+!image-20220218-103450.png|width=1025,height=218!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,NP-47,18/Feb/22 4:04 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-103344.png;https://ibmhaldia001.atlassian.net/secure/attachment/10025/image-20220218-103344.png,18/Feb/22 4:04 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-103450.png;https://ibmhaldia001.atlassian.net/secure/attachment/10024/image-20220218-103450.png,,,,,,{},,,,0|i000ks:i,,Sprint 1,,,,,,,,In Progress
+Verify the edit functionality with valid Voucher Theme Name,NP-10,10132,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 9:24 AM,18/Feb/22 9:23 AM,18/Feb/22 9:24 AM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000mn:,,,,,,,,,,Done
+Verify the delete functionality by selecting multiple rows,NP-9,10131,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 12:40 PM,21/Feb/22 9:50 AM,18/Feb/22 12:40 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000mf:,,,,,,,,,,Done
+Verify the delete functionality by selecting a single row,NP-8,10130,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 12:42 PM,21/Feb/22 9:50 AM,18/Feb/22 12:42 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000m7:,,,,,,,,,,Done
+Verify the Add button functionality with combination of special characters and numbers in Voucher Theme Name,NP-7,10129,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 4:49 PM,18/Feb/22 4:24 PM,,,0,"!image-20220218-103714.png|width=486,height=287!
+
+
+
+!image-20220218-103751.png|width=1034,height=102!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,NP-47,18/Feb/22 4:07 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-103714.png;https://ibmhaldia001.atlassian.net/secure/attachment/10026/image-20220218-103714.png,18/Feb/22 4:07 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-103751.png;https://ibmhaldia001.atlassian.net/secure/attachment/10027/image-20220218-103751.png,,,,,,{},,,,0|i000ks:,,Sprint 1,,,,,,,,In Progress
+Verify the Add button functionality without adding any image,NP-6,10128,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 12:41 PM,21/Feb/22 9:50 AM,18/Feb/22 12:41 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000lr:,,,,,,,,,,Done
+Verify the Add button functionality with numbers in Voucher Theme Name,NP-5,10127,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 4:49 PM,18/Feb/22 4:24 PM,,,0,"!image-20220218-103939.png|width=424,height=270!
+
+
+
+
+
+!image-20220218-104029.png|width=1233,height=142!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,NP-47,18/Feb/22 4:10 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-103939.png;https://ibmhaldia001.atlassian.net/secure/attachment/10028/image-20220218-103939.png,18/Feb/22 4:10 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-104029.png;https://ibmhaldia001.atlassian.net/secure/attachment/10029/image-20220218-104029.png,,,,,,{},,,,0|i000kt:,,Sprint 1,,,,,,,,In Progress
+Verify the Add button functionality with special characters in Voucher Theme Name,NP-4,10126,Test,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 4:49 PM,18/Feb/22 4:25 PM,,,0,"!image-20220218-104223.png|width=460,height=279!
+
+
+
+
+
+!image-20220218-104321.png|width=490,height=206!",,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,NP-47,18/Feb/22 4:13 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-104223.png;https://ibmhaldia001.atlassian.net/secure/attachment/10031/image-20220218-104223.png,18/Feb/22 4:13 PM;ug:234d78fa-e54f-4659-8bc1-1ccf14d1a67e;image-20220218-104321.png;https://ibmhaldia001.atlassian.net/secure/attachment/10030/image-20220218-104321.png,,,,,,{},,,,0|i000ku:,,Sprint 1,,,,,,,,In Progress
+Verify the Add button functionality with valid Voucher Theme Name,NP-3,10125,Test,Done,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,Done,,,Sumit Gupta,620b3324eb2978006891009e,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,17/Feb/22 5:11 PM,18/Feb/22 12:42 PM,18/Feb/22 10:22 AM,18/Feb/22 12:42 PM,,0,,,Zephyr for Jira - Test Management,557058:d99b15ce-fb96-40a1-b6e7-3ffdc632dc73,,,,,,,,,,NP-1,,,,,,,,,{},,,,0|i000l3:,,,,,,,,,,Done
+"As an admin, I want to add corresponding data in the Marketing Tracking list database and filter items from the Marketing Tracking List database by providing suitable campaign name, date, tracking code or combination of any mentioned params",NP-2,10124,Story,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Sumit Gupta,620b3324eb2978006891009e,17/Feb/22 4:57 PM,18/Feb/22 3:37 PM,18/Feb/22 2:49 PM,,,0,"+*Acceptance Criteria*+
+
+1.Campaign Name should only contain alphabets
+
+2.Date added must be in valid date-time range.
+
+3.Tracking Code must only be alphanumeric
+
+4. Add button and it’s functionality should work correctly.
+
+5. Delete button and it’s functionality should work correctly.
+
+6. If any invalid input is taken then error should be thrown with proper error message",,Sumit Gupta,620b3324eb2978006891009e,,,,,,,,,,,,,,,,,,,{},,,,0|i000kv:,,Sprint 1,,,,,,,,In Progress
+"As an admin, I want to add the Voucher Theme Name to the Voucher Themes database",NP-1,10123,Story,Blocked,NP,New Project,software,Sumit Gupta,620b3324eb2978006891009e,,Medium,,,,Sumit Gupta,620b3324eb2978006891009e,Sumit Gupta,620b3324eb2978006891009e,17/Feb/22 4:43 PM,18/Feb/22 12:59 PM,18/Feb/22 1:01 PM,,,0,"+*Acceptance Criteria*+
+
+# Voucher Theme Name should contain only alphabets.
+# The add button and it’s functionality should work correctly
+# The image associated with each Voucher Theme Name should never be blank.
+# If any invalid input is given error should be thrown with proper error message.",,Sumit Gupta,620b3324eb2978006891009e,,,,,,,,,,,,,,,,,,,{},,,,0|i000kn:,,Sprint 1,,,,,,,,In Progress
